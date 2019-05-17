@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   audio.addEventListener('click', function(){
     audiomain.play();
-    audiomain.volume = 0.3;
+    audiomain.volume = 0.5;
   });
 
 });
