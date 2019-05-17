@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bitter', serif;
+}
+
+body {
+  background-image: url('./background.jpg');
+  background-size: contain;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #070115;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #682ae9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #682ae9;
+}
+
+
+#confetti{
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: -1;
+}
+
+.rest {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left-part {
+  width: 250px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+}
+
+.right-message {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  position: relative;
+}
+
+.message-box {
+  margin: 260px 70px 260px 30px;
+}
+
+.text {
+  margin: 5px 0 0 10px;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.t-big {
+  font-size: 50px;
+}
+
+.t-smaller {
+  font-size: 30px;
+}
+
+.t-small {
+  font-size: 20px;
+}
+
+.t-b {
+  color: #682ae9;
+}
+
+.t-w {
+  color: #fefefe;
+}
+
+.t-g {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.t-italic {
+  font-style: italic;
+}
+
+img {
+  max-height: 400px;
+}
+
+img.left-ln {
+  max-height: 500px;
+}
+
+.mbox {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#audiomain {
+  display: none;
+}
+
+img.btm {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+img.btt {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+}
